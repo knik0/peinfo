@@ -494,7 +494,7 @@ int main(int argc, char *argv[])
     if (act & ACT_IMPORT)
     {
         if (!g_info.imp.ofs)
-            printf("can't find export table\n");
+            printf("can't find import table\n");
         else
         {
             uint8_t *data = malloc(g_info.imp.siz);
